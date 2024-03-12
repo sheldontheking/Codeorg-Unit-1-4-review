@@ -1,0 +1,45 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4{
+  font-size: 0.6em;
+}
+body{
+  background-color: palevioletred;
+  color: peachpuff;
+  text-align: center;
+  vertical-align: super;
+  font-family: 'Josefine Sans', sans-serif;
+}
+#logo{
+ width: 75px;
+  position: relative;
+  right: 230%;
+  top: 25px;
+}
+.banner{
+  background-color: rgba(951,661,401, 0.6);
+  margin: 15px;
+  padding: 10px;
+  height: 150px;
+  border: 3px solid indigo;
+  box-shadow: 5px 2px 2px 5px #ddd;
+  outline-offset: 1px;
+  outline: grove 2px maroon;
+  text-transform: capitalize;
+  text-shadow: 1px 1px #8F00FF;
+  font-family: fantasy;
+  font-style: oblique;
+  text-align: right;
+}
+#li{
+  transition: height 4s;
+}
+#li:hover{
+ height: 150px;
+  z-index: 1;
+}
